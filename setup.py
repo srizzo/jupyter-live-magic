@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="jupyter-live",
-    version='0.1.0',
+    version='0.1.1',
     url='https://github.com/srizzo/jupyter-live',
     author="Samuel Rizzo",
     author_email='rizzolabs@gmail.com',
