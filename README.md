@@ -1,4 +1,4 @@
-# Jupyter Live
+# Jupyter Live Magic
 
 A Jupyter Notebook %%magic for periodic auto re-run and refresh of Cells
 
@@ -9,7 +9,7 @@ Usage
 Load extension inside a Jupyter notebook:
 
 ```
-%load_ext jupyterlive
+%load_ext jupyterlivemagic
 ```
 
 Add code with Cell magic:
@@ -50,4 +50,4 @@ Install and activate dependencies:
 
 Then:
 
-    $ pip install jupyter_live
+    $ pip install jupyter-live-magic

@@ -5,7 +5,7 @@ from jupyter_interval_widget import Interval
 from IPython.display import display, clear_output
 
 @magics_class
-class JupyterLiveMagics(Magics):
+class JupyterLiveMagic(Magics):
     @cell_magic
     @magic_arguments()
     @argument("-r", "--refresh-rate",

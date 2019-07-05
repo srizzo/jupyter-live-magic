@@ -1,9 +1,9 @@
 import setuptools
 
 setuptools.setup(
-    name="jupyter-live",
-    version='0.1.1',
-    url='https://github.com/srizzo/jupyter-live',
+    name="jupyter-live-magic",
+    version='0.1.2',
+    url='https://github.com/srizzo/jupyter-live-magic',
     author="Samuel Rizzo",
     author_email='rizzolabs@gmail.com',
     description="A Jupyter Notebook %%magic for periodic auto re-run and refresh of Cells",
@@ -12,15 +12,15 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     license='MIT',
     install_requires=[
-        'ipython',
-        'jupyter'
+        'jupyter',
+        'ipywidgets',
+        'jupyter-interval-widget'
     ],
     keywords=['ipython', 'jupyter'],
     classifiers=[
         'Intended Audience :: Developers',
         'Intended Audience :: System Administrators',
         'Intended Audience :: Science/Research',
-        'License :: OSI Approved :: BSD License',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.7',
